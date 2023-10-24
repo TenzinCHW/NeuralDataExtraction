@@ -5,10 +5,12 @@ Get the data into a subdirectory in this repo named `data`.
 
 [Install Julia](https://julialang.org/downloads/)
 
-Start `julia` in this directory.
+Start `julia` in this directory and run the following
 
-```import Pkg
-Pkg.instantiate()```
+```
+import Pkg
+Pkg.instantiate()
+```
 
 then just run both files with `julia src/mat2jld2.jl` and then `julia src/bin.jl`.
 
