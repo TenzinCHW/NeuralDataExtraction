@@ -1,5 +1,5 @@
 import Pkg
-Pkg.activate("..")
+Pkg.activate(".")
 import MAT, JLD2
 
 
